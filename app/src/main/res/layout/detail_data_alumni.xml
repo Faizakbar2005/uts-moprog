@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- NIM -->
+    <TextView
+        android:id="@+id/textNIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textNIMValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1234567890"
+        android:textSize="14sp"
+        android:layout_below="@id/textNIM"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Nama -->
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textNIMValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textNamaValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:textSize="14sp"
+        android:layout_below="@id/textNama"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Tempat Lahir -->
+    <TextView
+        android:id="@+id/textTempatLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat Lahir"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textNamaValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textTempatLahirValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jakarta"
+        android:textSize="14sp"
+        android:layout_below="@id/textTempatLahir"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Tanggal Lahir -->
+    <TextView
+        android:id="@+id/textTanggalLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textTempatLahirValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textTanggalLahirValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01 Januari 2000"
+        android:textSize="14sp"
+        android:layout_below="@id/textTanggalLahir"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Alamat -->
+    <TextView
+        android:id="@+id/textAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textTanggalLahirValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textAlamatValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jl. Contoh No. 123"
+        android:textSize="14sp"
+        android:layout_below="@id/textAlamat"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textAgama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agama"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textAlamatValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textAgamaValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Islam"
+        android:textSize="14sp"
+        android:layout_below="@id/textAgama"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- No Telp -->
+    <TextView
+        android:id="@+id/textNoTelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Telp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textAgamaValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textNoTelpValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="081234567890"
+        android:textSize="14sp"
+        android:layout_below="@id/textNoTelp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Tahun Masuk -->
+    <TextView
+        android:id="@+id/textTahunMasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tahun Masuk"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textNoTelpValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textTahunMasukValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015"
+        android:textSize="14sp"
+        android:layout_below="@id/textTahunMasuk"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Tahun Lulus -->
+    <TextView
+        android:id="@+id/textTahunLulus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tahun Lulus"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textTahunMasukValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textTahunLulusValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2019"
+        android:textSize="14sp"
+        android:layout_below="@id/textTahunLulus"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Pekerjaan -->
+    <TextView
+        android:id="@+id/textPekerjaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pekerjaan"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textTahunLulusValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textPekerjaanValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Engineer"
+        android:textSize="14sp"
+        android:layout_below="@id/textPekerjaan"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Jabatan -->
+    <TextView
+        android:id="@+id/textJabatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jabatan"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textPekerjaanValue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textJabatanValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senior Software Engineer"
+        android:textSize="14sp"
+        android:layout_below="@id/textJabatan"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Tombol Ubah -->
+    <Button
+        android:id="@+id/buttonUbah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubah"
+        android:layout_below="@id/textJabatanValue"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Tombol Hapus -->
+    <Button
+        android:id="@+id/buttonHapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:layout_below="@id/textJabatanValue"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="120dp"/>
+
+</RelativeLayout>

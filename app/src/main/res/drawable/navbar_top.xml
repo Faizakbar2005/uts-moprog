@@ -1,0 +1,6 @@
+<!-- rectangle_black.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#000000" /> <!-- Warna hitam -->
+    <size android:width="800dp" android:height="100dp" /> <!-- Ukuran panjang dan lebar -->
+</shape>

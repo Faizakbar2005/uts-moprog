@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Navbar -->
+    <LinearLayout
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_berita"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Berita"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Konten Berita -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berita"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="90dp"/>
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:background="@drawable/news"
+        android:layout_marginTop="110dp"
+        /> <!-- Gunakan drawable yang telah dibuat -->
+
+
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tortor non nibh aliquam, quis lacinia justo tincidunt. Nullam sem ligula, rhoncus vel ante sed, mattis iaculis libero. Nam ullamcorper erat non odio scelerisque, id mattis quam fringilla. Ut interdum orci sed lectus pellentesque, nec pharetra ipsum eleifend. Sed vehicula, leo ac lacinia commodo, neque orci placerat ligula, ac consectetur ipsum arcu nec metus. Nulla facilisi. In hac habitasse platea dictumst. In ultricies varius orci, a aliquet purus aliquam at. Cras efficitur ac nisi eu vehicula. Duis fermentum rutrum magna id ultrices. Integer ut nulla fermentum, tincidunt libero nec, elementum dolor."
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/buttonMoreNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berita Lainnya"
+        android:layout_below="@id/textViewContent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>
