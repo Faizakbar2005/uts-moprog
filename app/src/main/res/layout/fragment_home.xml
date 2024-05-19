@@ -70,7 +70,8 @@
                 android:gravity="center"
                 android:text="Home"
                 android:textColor="@color/white"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:background="@drawable/navbar_item_background" />
 
             <TextView
                 android:id="@+id/text_berita"
@@ -80,7 +81,8 @@
                 android:gravity="center"
                 android:text="Berita"
                 android:textColor="@color/white"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:background="@drawable/navbar_item_background" />
 
             <TextView
                 android:id="@+id/text_profile"
@@ -90,7 +92,8 @@
                 android:gravity="center"
                 android:text="Profile"
                 android:textColor="@color/white"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:background="@drawable/navbar_item_background" />
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
